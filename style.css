@@ -2,17 +2,34 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
 }
 
 body {
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(226, 221, 221);
 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
 }
 
 .container .form-content {
     background-color: white;
-    width: 500px;
-    margin: auto;
+    width: 40%;
+
     padding: 20px 15px;
 }
 
@@ -49,6 +66,7 @@ body {
 .form-content form p {
     width: 80%;
     margin: 5px auto;
+    font-size: 14px;
 
 }
 
@@ -58,8 +76,8 @@ body {
 }
 
 .form-content form button {
-    width: 30%;
-    height: 50px;
+    width: 100%;
+    height: 40px;
     font-size: 18px;
     border: none;
     display: block;
@@ -67,4 +85,167 @@ body {
     background-color: crimson;
     color: white;
 
+}
+
+/* Second form */
+
+.container .second-form-content {
+    width: 40%;
+    background-color: white;
+    padding: 15px;
+}
+
+.container .second-form-content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container .second-form-content .second-input-group {
+    margin-top: 15px;
+}
+
+.container .second-form-content .second-input-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.container .second-form-content .second-input-group .second-input-control {
+    padding: 10px 8px;
+    width: 100%;
+
+}
+
+.container .second-form-content form button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin: 20px auto;
+    background: linear-gradient(to right, rgb(14, 45, 182), rgb(7, 21, 83), rgb(1, 18, 75));
+    color: white;
+}
+
+.second-form-content form p {
+    text-align: center;
+}
+
+/* Third form */
+.container .third-form-content {
+    background-color: white;
+    width: 40%;
+    padding: 15px;
+
+}
+
+.container .third-form-content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container .third-form-content .button-group {
+    border: 1px solid rgb(223, 218, 218);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    /* background-color: black; */
+    margin: 30px auto;
+    padding: 0;
+
+
+}
+
+.container .third-form-content .button-group button {
+    width: 49%;
+    height: 100%;
+    font-weight: 800;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.container .third-form-content .button-group button:first-child {
+    background: linear-gradient(to right, rgb(87, 20, 45), rgb(185, 37, 128), rgb(220, 20, 130));
+    color: white;
+
+}
+
+.container .third-form-content form .third-input-group {
+    margin-top: 15px;
+}
+
+.container .third-form-content form .third-input-group input {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid rgb(223, 218, 218);
+}
+
+.container .third-form-content form a {
+    color: crimson;
+    margin-top: 5px;
+}
+
+.third-form-content form button {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right, rgb(104, 4, 41), rgb(185, 37, 128), rgb(220, 20, 130));
+    border-radius: 5px;
+    border: none;
+    margin: 25px 0;
+    color: white;
+    font-weight: 800;
+}
+
+.third-form-content form p {
+    text-align: center;
+}
+
+.fourth-form-content {
+    background-color: white;
+    width: 40%;
+    padding: 15px;
+}
+
+.fourth-form-content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.fourth-form-content form .fourth-input-group {
+    margin: 20px 0;
+}
+
+.fourth-form-content form input {
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+    width: 49%;
+    display: inline-block;
+}
+
+.fourth-form-content form input:focus, .fourth-form-content form textarea:focus {
+    border-bottom: 1px solid #ff9e00;
+    outline: none;
+}
+
+.fourth-form-content form textarea {
+    border: none;
+    border-bottom: 1px solid rgb(223, 218, 218);
+    width: 100%;
+}
+
+.fourth-form-content form button {
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    background-color: #ff9e00;
+    border: none;
+    color: black;
+    border-radius: 8px;
+    font-weight: 800;
 }
