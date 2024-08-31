@@ -76,7 +76,7 @@ body {
 }
 
 .form-content form button {
-    width: 100%;
+    width: 80%;
     height: 40px;
     font-size: 18px;
     border: none;
@@ -84,7 +84,6 @@ body {
     margin: 20px auto;
     background-color: crimson;
     color: white;
-
 }
 
 /* Second form */
