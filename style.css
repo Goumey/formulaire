@@ -3,6 +3,8 @@
 * {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 input:focus {
@@ -247,4 +249,211 @@ body {
     color: black;
     border-radius: 8px;
     font-weight: 800;
+}
+
+/***************************************************Flower Shop*****************************************************/
+header {
+    background-color: white;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    margin: 5px;
+    text-align: center;
+
+
+
+}
+
+ul {
+    width: 460px;
+    height: 100%;
+    margin: auto;
+}
+
+.shop-container {
+    background-color: white;
+}
+
+.shop-container .container-bannier {
+    height: 400px;
+    background-image: url('./images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 100px;
+
+}
+
+.shop-container .container-bannier h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.shop-container .container-bannier p {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.shop-container .product-collection {
+    width: 80%;
+    padding: 20px auto;
+    margin: auto;
+}
+
+.shop-container .product-collection h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+.shop-container .product-collection .product-cart-1 img {
+    float: left;
+    margin-right: 25px;
+}
+
+
+
+.shop-container .product-collection .description h5 {
+    color: #ff9e00;
+    font-size: 30px;
+}
+
+.shop-container .product-collection .description .price {
+    font-size: 25px;
+    color: rgb(106, 103, 103);
+}
+
+.shop-container .product-collection .description .description-content {
+    line-height: 1.5;
+    font-style: oblique;
+    margin-bottom: 20px;
+    text-indent: 40px;
+}
+
+.shop-container .product-collection .description button {
+    height: 30px;
+    width: 200px;
+    border: none;
+    background-color: #ff9e00;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.shop-container .product-collection .product-cart-2 {
+    clear: both;
+    margin: 100px auto;
+}
+
+.shop-container .product-collection .product-cart-2 .description {
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+.shop-container .product-collection .product-cart-2 img {
+    float: right;
+    margin-left: 25px;
+}
+
+.shop-container .bannier-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("/images/bg1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    padding: 50px 0;
+
+}
+
+.shop-container .bannier-2 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.shop-container .bannier-2 p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 20px auto;
+}
+
+.shop-container .bannier-2 button {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #ff9e00;
+    color: black;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.shop-container .contact-form {
+    width: 40%;
+    margin: 50px auto;
+    background-color: rgb(238, 234, 234);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+
+
+.contact-form .form-group {
+    margin: 10px auto;
+}
+
+.contact-form .form-group input {
+    padding: 10px 5px;
+
+}
+
+.contact-form .form-group textarea {
+    width: 100%;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+    outline: none;
+}
+
+.contact-form button {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #ff9e00;
+    color: black;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(238, 234, 234);
+    color: black;
 }
