@@ -370,7 +370,7 @@ ul {
 
 .shop-container .bannier-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("/images/bg1.jpg");
+        url("./images/bg1.jpg");
     background-position: bottom;
     background-size: cover;
     padding: 50px 0;
